@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    margin: 0;
+}
+
+#main {
+    width: 626px;
+    margin: 64px auto;
+}
+
+#main img {
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+
+    /*Quando eu estava fazendo o desafio, percebi que tinha uma sombra em <h1>, mas acho que eu mexi no figma na parte de effects em design e apareceu esse efeito. Acabei deixando porque foi uma novidade para mim -tive que voltar no meu caderno de anotações e estudar um pouco- e também achei que ficou interessante.*/
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    width: 494px;
+    height: 40px;
+    
+    margin: 0px auto 16px;
+}
+
+h1 span {
+    color: #EE24FF;
+
+    font-weight: bold;
+}
+
+h1, span, a {
+    color: #3F3D56;
+}
+
+span, a {
+    font-weight: bold;
+}
+
+#main, a {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+p {
+    color: #828282;
+
+    width: 540px;
+    margin: 0px auto;
+}
+
+#main p + p {
+    line-height: 20px;
+
+    margin-top: 32px;    
+}
+
+#footer {
+    font-size: 15px;
+    line-height: 22px;
+
+    font-weight: 700;
+}
+
+#line {
+    width: 391px;
+    height: 0px;
+
+    margin: 0px auto 16px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#footer a {
+    text-decoration-line: none;
+}
+
+#footer a + a {
+    margin-left: 42px;
+}
+
+#wave {
+    width: 1024;
+    height: 104px;
+      
+    margin: 40.83px 0px 0px;
+}
